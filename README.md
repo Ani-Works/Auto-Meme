@@ -1,4 +1,4 @@
-# Auto-Meme by [AniWorks™](https://github.com/Ani-Works))
+# Auto-Meme by [AniWorks](https://github.com/Ani-Works)™
 ### Installation Instructions
 1. Install:
     - `python3` (this is in python after all)
