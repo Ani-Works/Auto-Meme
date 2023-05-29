@@ -1,0 +1,50 @@
+telegram:
+    api_id: add_your_api_id
+    api_hash: add_your_api_hash
+    bot_token: add_your_bot_token
+reddit:
+    client_id: add_your_reddit_client_id
+    client_secret: add_your_reddit_client_secret
+config:
+    # Below are chats to store seen posts, useful for temporary file systems like Heroku
+    # Set to 0 to disable
+    storage_chat: -1234567890 ## Storage channel
+    storage_message_id: 1367
+    unique_id: -1234567890 # unique id of channel
+    send_to_chats:
+        theanimemims: ### Channel username without "@" where the Memes will be uploaded
+            subreddits:
+                - goodanimemes 
+            cron_duration: 0 * * * *
+            allow_selfposts: true
+            allow_nsfw: true
+            allow_spoilers: true
+            show_nsfw_warning: true
+            show_spoilers_warning: true
+            timeout: 60
+        -1001719123984:
+            subreddits:
+                - HentaiMemes
+            cron_duration: 0 * * * *
+            allow_selfposts: true
+            allow_nsfw: true
+            allow_spoilers: true
+            show_nsfw_warning: true
+            show_spoilers_warning: true
+            timeout: 60
+        theanimemims:
+            subreddits:
+                - linuxmemes
+                - dankmemes
+                - memes
+                - ShitPostCrusaders
+            cron_duration: "*/30 * * * *"
+            allow_selfposts: true
+            allow_nsfw: true
+            allow_spoilers: true
+            show_nsfw_warning: true
+            show_spoilers_warning: true
+            timeout: 60
+    bot_admins:
+        - pain_to_this_world
+        - 2104674370
