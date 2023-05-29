@@ -1,0 +1,8 @@
+BeautifulSoup4
+telethon
+aiocron
+aiohttp>=3.7.1
+hachoir
+PyYAML
+Pillow
+asyncpraw
